@@ -1,0 +1,32 @@
+* {border: 5px solid red;}
+
+.container {
+	height: 60px;
+	background: #EEEEEE;
+	padding-left: 10px;
+	padding-right: 10px;
+	/*text-align: right;*/
+	position: relative;
+}
+
+.icon {
+	/*position: absolute;
+	float: left;*/
+	line-height: 60px;
+	margin: 0;
+	display: inline-block;
+	position: absolute;
+	left: 0;
+}
+
+.nav-list {
+	list-style: none;
+	/*text-align: right;*/
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+
+.nav-item {
+	display: inline-block;
+}
